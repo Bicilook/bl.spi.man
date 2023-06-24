@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Great Layout</title>
+  <style>
+    body {
+      margin: 20px;
+      padding: 15px;
+    }
+    
+    header {
+      background-color: #ff0000;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav {
+      background-color: #ff0000;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    main {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .column {
+      flex-basis: 0;
+      flex-grow: 1;
+      padding: 40px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Spiderman</h1>
+  </header>
+  
+  <nav>
+    <a href="#">Quien Es Spiderman</a>
+    <a href="#">Quien Es La Novia</a>
+    <a href="#">Cuantas Peliculas Tiene</a>
+  </nav>
+  
+  <main>
+    <div class="row">
+      <div class="column" style="background-color:#000000;">
+        <h2>Fila 1</h2>
+        <img src="images/spiderman1.jpg" alt="spiderman" width="100%" height="90%">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column" style="background-color:#ffffff;">
+        <h2>Fila 2, Columna 1</h2>
+        <img src="images/piterparker.jpeg" alt="Peter Parker" width="80%" height="80%">
+      </div>
+      
+      <div class="column" style="background-color: #ffffff;">
+        <h2>Fila 2, Columna 2</h2>
+        <h1>Peter Parker era un estudiante de preparatoria que fue mordido por una araña radiactiva en la secundaria. La picadura le llevó a desarrollar poderes similares a los de una araña. Pronto fue capaz de trepar por las paredes y sentir el peligro inminente.</h1 width 60% height 60%>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column" style="background-color:#000000;">
+        <h2>Fila 3, Columna 1</h2>
+        <img src="images/fila3colum1.jpeg" alt="spiderman" width="183" height="183">
+      </div>
+      
+      <div class="column" style="background-color:#000000;">
+        <h2>Fila 3, Columna 2</h2>
+        <cennter><video type src="InShot_20230621_154725703.webm" autoplay loop controls width="90%" height="80%">Spiderman</video>
+      </cennter>
+        </div>
+      
+      <div class="column" style="background-color:#000000;">
+        <h2>Fila 3, Columna 3</h2>
+        <img src="images/fila3colum3.jpeg" alt="spiderman" width="183" height="183">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column" style="background-color:#ffffff;">
+        <h2>Fila 4</h2>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
